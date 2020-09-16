@@ -18,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,9 +46,9 @@
       <command value="./gradlew --warning-mode=all" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Imutabilidade">
-    <configuration name="Aula" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.digital.innovation.one.Aula" />
+  <component name="RunManager" selected="Application.FuncaoComLambda">
+    <configuration name="FuncaoComClasseAnonima" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.digital.innovation.one.FuncaoComClasseAnonima" />
       <module name="paradigma-funcional-no-java.main" />
       <extension name="coverage">
         <pattern>
@@ -59,8 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComposicaoDeFuncoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.digital.innovation.one.ComposicaoDeFuncoes" />
+    <configuration name="FuncaoComLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.digital.innovation.one.FuncaoComLambda" />
       <module name="paradigma-funcional-no-java.main" />
       <extension name="coverage">
         <pattern>
@@ -98,12 +99,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestandoInterfaceFunciona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.digital.innovation.one.TestandoInterfaceFunciona" />
+      <module name="paradigma-funcional-no-java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.digital.innovation.one.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FuncaoComLambda" />
+        <item itemvalue="Application.FuncaoComClasseAnonima" />
+        <item itemvalue="Application.TestandoInterfaceFunciona" />
         <item itemvalue="Application.Imutabilidade" />
         <item itemvalue="Application.FuncoesPuras" />
-        <item itemvalue="Application.ComposicaoDeFuncoes" />
-        <item itemvalue="Application.Aula" />
       </list>
     </recent_temporary>
   </component>
@@ -119,26 +134,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1600211339958">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600211339958" />
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600039703834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1600039703834" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600042389851">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1600217040980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600042389851" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600042389851">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600217040980" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1600217040980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600042389851" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600042389851">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600217040980" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1600217040980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600042389851" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600042389851">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600217040980" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1600217040980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600042389851" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600217040980" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1600217040980">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600217040980" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1600217040980">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600217040980" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1600217040980">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600217040980" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1600217040980">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600217040980" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1600039690274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
