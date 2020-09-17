@@ -1,6 +1,5 @@
-package br.com.digital.innovation.one;
+package br.com.digital.innovation.one.aula1;
 
-import  java.util.function.Function;
 public class TestandoInterfaceFunciona {
 
     public static void main(String[] args) {
