@@ -14,6 +14,7 @@ public class InferenciaExemplo {
         connectAndPrintURLJavaOracle();
         int nucleos = Runtime.getRuntime().availableProcessors();
         System.out.println("nucleos: " + nucleos);
+        
 
         /* sem a inferencia
         URL url = new URL("https://docs.oracle.com/javase/10/language/");
